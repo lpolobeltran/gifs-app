@@ -13,7 +13,6 @@ export class HomePageComponent {
 
 
 
-  
   // GET PARA HACER COPIA DEL LISTADO DE GIFS
   get gifs(): Gif[] {
     return this.gifsService.gifList;

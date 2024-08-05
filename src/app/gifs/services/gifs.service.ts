@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { SearchResponse, Gif } from './../interfaces/gifs.interfaces.component';
-import { first } from 'rxjs';
 
 @Injectable({
   // Hace que el servicio este disponible en todo el proyecto, solo debe ser inyectado para su uso

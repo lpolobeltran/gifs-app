@@ -7,6 +7,7 @@ import { Gif } from '../../interfaces/gifs.interfaces.component';
   styleUrl: './card-list.component.css'
 })
 export class CardListComponent {
+  // SE ESCUCHA LO QUE EMITE EL COMPONENTE HOME-PAGES
   @Input()
   public gifs: Gif[] = [];
 
